@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "dac-app",
       mode: "cluster",
-      script: "/usr/bin/yarn",
+      script: "./app.js",
       args: "start",
       watch: false,
       instances: 4,
