@@ -19230,9 +19230,9 @@ header .navbar .nav-link .flag-icon {
 
 #leaxcoin-wallet .section-img {
   margin-top: 50px;
-  width: 150% !important;
+  width: 80% !important;
   height: auto;
-  margin-left: -50%;
+  margin-left: 0;
 }
 
 #leaxcoin-wallet-buttons {
