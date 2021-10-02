@@ -1,0 +1,393 @@
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>EthFiddle - Solidity IDE in the Browser. Powered By Loom Network</title><meta name="description" content="#1 Solidity code sharing site. Share Solidity code snippets with friends, or check out cool code snippets from around the web."><meta property="og:title" content="EthFiddle - Solidity in the Browser. Powered By Loom Network"><meta property="og:description" content="#1 Solidity code sharing site. Share Solidity code snippets with friends, or check out cool code snippets from around the web."><meta property="og:image" content="http://ethfiddle.com/static/img/preview.png"><meta property="og:url" content=""><meta name="twitter:card" content="summary"><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://cdn.segment.com/analytics.js/v1/8LPR38uHASYynrfxrgZK2ONDKCZi9naY/analytics.min.js"></script><script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+      analytics.load("8LPR38uHASYynrfxrgZK2ONDKCZi9naY");
+      analytics.page();
+      }}();</script><link rel="shortcut icon" href="https://d2m6hnaj8b8yvd.cloudfront.net/favicon.ico"><link href="https://d2m6hnaj8b8yvd.cloudfront.net/static/css/pagetemplate.a7d9917d9d81779e840a96f65b2f1c68.css" rel="stylesheet"></head><body>
+<style>
+    html,
+    body {
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    pre {
+      flex-grow: 1;
+      height: 100%;
+      margin: 0;
+      white-space: pre-wrap;      
+    }
+
+    code {
+      height: 100%;
+      overflow: scroll;
+    }
+
+    footer {
+        display: none;
+    }
+</style>
+<div class="h-100">
+    <div class="card bg-dark h-100">
+        <pre class=""><code class="solidity hljs">pragma solidity ^<span class="hljs-number">0.4</span><span class="hljs-number">.21</span>;
+
+
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">ERC20Basic</span> </span>{
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> totalSupply;
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">balanceOf</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> who</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">constant</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>)</span>;
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transfer</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> to, <span class="hljs-keyword">uint256</span> value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>)</span>;
+    <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">Transfer</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> from, <span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> to, <span class="hljs-keyword">uint256</span> value</span>)</span>;
+}
+
+
+<span class="hljs-comment">/**
+ * @title Ownable
+ * @dev The Ownable contract has an owner address, and provides basic authorization control
+ * functions, this simplifies the implementation of "user permissions".
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">Ownable</span> </span>{
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> owner;
+
+    <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">OwnershipTransferred</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> previousOwner, <span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> newOwner</span>)</span>;
+
+  <span class="hljs-comment">/**
+   * @dev The Ownable constructor sets the original `owner` of the contract to the sender
+   * account.
+   */</span>
+    constructor() <span class="hljs-keyword">public</span> {
+    owner = <span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>;
+    }
+
+  <span class="hljs-comment">/**
+   * @dev Throws if called by any account other than the owner.
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">onlyOwner</span>(<span class="hljs-params"></span>) </span>{
+    require(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span> == owner);
+    _;
+  }
+
+  <span class="hljs-comment">/**
+   * @dev Allows the current owner to transfer control of the contract to a newOwner.
+   * @param newOwner The address to transfer ownership to.
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transferOwnership</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> newOwner</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{
+    require(newOwner != <span class="hljs-keyword">address</span>(<span class="hljs-number">0</span>));
+    emit OwnershipTransferred(owner, newOwner);
+    owner = newOwner;
+  }
+
+}
+<span class="hljs-comment">/**
+ * @title Pausable
+ * @dev Base contract which allows children to implement an emergency stop mechanism.
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">Pausable</span> <span class="hljs-keyword">is</span> <span class="hljs-title">Ownable</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">Pause</span>(<span class="hljs-params"></span>)</span>;
+  <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">Unpause</span>(<span class="hljs-params"></span>)</span>;
+
+  <span class="hljs-keyword">bool</span> <span class="hljs-keyword">public</span> paused = <span class="hljs-literal">false</span>;
+
+
+  <span class="hljs-comment">/**
+   * @dev Modifier to make a function callable only when the contract is not paused.
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">whenNotPaused</span>(<span class="hljs-params"></span>) </span>{
+    require(!paused);
+    _;
+  }
+
+  <span class="hljs-comment">/**
+   * @dev Modifier to make a function callable only when the contract is paused.
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">whenPaused</span>(<span class="hljs-params"></span>) </span>{
+    require(paused);
+    _;
+  }
+
+  <span class="hljs-comment">/**
+   * @dev called by the owner to pause, triggers stopped state
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">pause</span>(<span class="hljs-params"></span>) <span class="hljs-title">onlyOwner</span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">public</span></span> </span>{
+    paused = <span class="hljs-literal">true</span>;
+    emit Pause();
+  }
+
+  <span class="hljs-comment">/**
+   * @dev called by the owner to unpause, returns to normal state
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">unpause</span>(<span class="hljs-params"></span>) <span class="hljs-title">onlyOwner</span> <span class="hljs-title">whenPaused</span> <span class="hljs-title"><span class="hljs-keyword">public</span></span> </span>{
+    paused = <span class="hljs-literal">false</span>;
+    emit Unpause();
+  }
+}
+
+<span class="hljs-comment">/**
+ * @title ERC20 interface
+ * @dev see https://github.com/ethereum/EIPs/issues/20
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">ERC20</span> <span class="hljs-keyword">is</span> <span class="hljs-title">ERC20Basic</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">allowance</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> owner, <span class="hljs-keyword">address</span> spender</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">constant</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>)</span>;
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transferFrom</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> from, <span class="hljs-keyword">address</span> to, <span class="hljs-keyword">uint256</span> value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>)</span>;
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">approve</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> spender, <span class="hljs-keyword">uint256</span> value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>)</span>;
+  <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">Approval</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> owner, <span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> spender, <span class="hljs-keyword">uint256</span> value</span>)</span>;
+}
+
+<span class="hljs-class"><span class="hljs-keyword">library</span> <span class="hljs-title">SafeMath</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mul</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> a, <span class="hljs-keyword">uint256</span> b</span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> <span class="hljs-title">pure</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>) </span>{
+    <span class="hljs-keyword">uint256</span> c = a * b;
+    assert(a == <span class="hljs-number">0</span> || c / a == b);
+    <span class="hljs-keyword">return</span> c;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">div</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> a, <span class="hljs-keyword">uint256</span> b</span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> <span class="hljs-title">pure</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>) </span>{
+    <span class="hljs-comment">// assert(b &gt; 0); // Solidity automatically throws when dividing by 0</span>
+    <span class="hljs-keyword">uint256</span> c = a / b;
+    <span class="hljs-comment">// assert(a == b * c + a % b); // There is no case in which this doesn't hold</span>
+    <span class="hljs-keyword">return</span> c;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sub</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> a, <span class="hljs-keyword">uint256</span> b</span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> <span class="hljs-title">pure</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>) </span>{
+    assert(b &lt;= a);
+    <span class="hljs-keyword">return</span> a - b;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> a, <span class="hljs-keyword">uint256</span> b</span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> <span class="hljs-title">pure</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>) </span>{
+    <span class="hljs-keyword">uint256</span> c = a + b;
+    assert(c &gt;= a);
+    <span class="hljs-keyword">return</span> c;
+  }
+}
+
+<span class="hljs-comment">/**
+ * @title Basic token
+ * @dev Basic version of StandardToken, with no allowances.
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">BasicToken</span> <span class="hljs-keyword">is</span> <span class="hljs-title">ERC20Basic</span> </span>{
+  <span class="hljs-keyword">using</span> SafeMath <span class="hljs-keyword">for</span> <span class="hljs-keyword">uint256</span>;
+
+  <span class="hljs-keyword">mapping</span>(<span class="hljs-keyword">address</span> =&gt; <span class="hljs-keyword">uint256</span>) balances;
+
+  <span class="hljs-comment">/**
+  * @dev transfer token for a specified address
+  * @param _to The address to transfer to.
+  * @param _value The amount to be transferred.
+  */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transfer</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> _to, <span class="hljs-keyword">uint256</span> _value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>) </span>{
+    require(_to != <span class="hljs-keyword">address</span>(<span class="hljs-number">0x0</span>));
+
+    <span class="hljs-comment">// SafeMath.sub will throw if there is not enough balance.</span>
+    balances[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>] = balances[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>].sub(_value);
+    balances[_to] = balances[_to].add(_value);
+    emit Transfer(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>, _to, _value);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+
+  <span class="hljs-comment">/**
+  * @dev Gets the balance of the specified address.
+  * @param _owner The address to query the the balance of.
+  * @return An uint256 representing the amount owned by the passed address.
+  */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">balanceOf</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> _owner</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">constant</span></span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span> balance</span>) </span>{
+    <span class="hljs-keyword">return</span> balances[_owner];
+  }
+}
+
+<span class="hljs-comment">/**
+ * @title Standard ERC20 token
+ *
+ * @dev Implementation of the basic standard token.
+ * @dev https://github.com/ethereum/EIPs/issues/20
+ * @dev Based on code by FirstBlood: https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">StandardToken</span> <span class="hljs-keyword">is</span> <span class="hljs-title">ERC20</span>, <span class="hljs-title">BasicToken</span>, <span class="hljs-title">Pausable</span> </span>{
+
+  <span class="hljs-keyword">mapping</span> (<span class="hljs-keyword">address</span> =&gt; <span class="hljs-keyword">mapping</span> (<span class="hljs-keyword">address</span> =&gt; <span class="hljs-keyword">uint256</span>)) allowed;
+
+  <span class="hljs-comment">/**
+   * @dev Transfer tokens from one address to another
+   * @param _from address The address which you want to send tokens from
+   * @param _to address The address which you want to transfer to
+   * @param _value uint256 the amount of tokens to be transferred
+   */</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transferFrom</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> _from, <span class="hljs-keyword">address</span> _to, <span class="hljs-keyword">uint256</span> _value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>) </span>{
+    require(_to != <span class="hljs-keyword">address</span>(<span class="hljs-number">0x0</span>));
+
+    <span class="hljs-keyword">uint256</span> _allowance = allowed[_from][<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>];
+
+    <span class="hljs-comment">// Check is not needed because sub(_allowance, _value) will already throw if this condition is not met</span>
+    <span class="hljs-comment">// require (_value &lt;= _allowance);</span>
+
+    balances[_from] = balances[_from].sub(_value);
+    balances[_to] = balances[_to].add(_value);
+    allowed[_from][<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>] = _allowance.sub(_value);
+    emit Transfer(_from, _to, _value);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">approve</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> _spender, <span class="hljs-keyword">uint256</span> _value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span></span>) </span>{
+    allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender] = _value;
+    emit Approval(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>, _spender, _value);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">allowance</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> _owner, <span class="hljs-keyword">address</span> _spender</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title"><span class="hljs-keyword">constant</span></span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span> remaining</span>) </span>{
+    <span class="hljs-keyword">return</span> allowed[_owner][_spender];
+  }
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">increaseApproval</span> (<span class="hljs-params"><span class="hljs-keyword">address</span> _spender, <span class="hljs-keyword">uint</span> _addedValue</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span> success</span>) </span>{
+    allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender] = allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender].add(_addedValue);
+    emit Approval(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>, _spender, allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender]);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">decreaseApproval</span> (<span class="hljs-params"><span class="hljs-keyword">address</span> _spender, <span class="hljs-keyword">uint</span> _subtractedValue</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">whenNotPaused</span> <span class="hljs-title"><span class="hljs-keyword">returns</span></span> (<span class="hljs-params"><span class="hljs-keyword">bool</span> success</span>) </span>{
+    <span class="hljs-keyword">uint</span> oldValue = allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender];
+    <span class="hljs-keyword">if</span> (_subtractedValue &gt; oldValue) {
+      allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender] = <span class="hljs-number">0</span>;
+    } <span class="hljs-keyword">else</span> {
+      allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender] = oldValue.sub(_subtractedValue);
+    }
+    emit Approval(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>, _spender, allowed[<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>][_spender]);
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">Leaxcoin</span> <span class="hljs-keyword">is</span> <span class="hljs-title">StandardToken</span> </span>{
+    <span class="hljs-keyword">using</span> SafeMath <span class="hljs-keyword">for</span> <span class="hljs-keyword">uint256</span>;
+
+    <span class="hljs-comment">//Information coin</span>
+    <span class="hljs-keyword">string</span> <span class="hljs-keyword">public</span> name = <span class="hljs-string">"Leaxcoin"</span>;
+    <span class="hljs-keyword">string</span> <span class="hljs-keyword">public</span> symbol = <span class="hljs-string">"LEAX"</span>;
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> decimals = <span class="hljs-number">18</span>;
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> totalSupply = <span class="hljs-number">2000000000</span> * (<span class="hljs-number">10</span> ** decimals); <span class="hljs-comment">//2 000 000 000 LEAX</span>
+
+    <span class="hljs-comment">//Adress informated in white paper </span>
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> walletETH;               <span class="hljs-comment">//Wallet ETH</span>
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> contractAddress = <span class="hljs-built_in">this</span>;  <span class="hljs-comment">//12%  Team</span>
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> tokenSale;               <span class="hljs-comment">//50%  ICO    </span>
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> bounty;                  <span class="hljs-comment">//15%  bounty</span>
+    <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> awardsReservations;      <span class="hljs-comment">//23%  awards plataforma view in whitepaper  </span>
+    
+    <span class="hljs-comment">//Utils ICO   </span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> tokensSold = <span class="hljs-number">0</span>;          <span class="hljs-comment">//total number of tokens sold</span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> totalRaised = <span class="hljs-number">0</span>;         <span class="hljs-comment">//total amount of money raised in wei</span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> totalTokenToSale = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> rate = <span class="hljs-number">10000</span>;             <span class="hljs-comment">//LEAX/ETH rate</span>
+    <span class="hljs-keyword">bool</span> <span class="hljs-keyword">public</span> pauseEmergence = <span class="hljs-literal">false</span>;     <span class="hljs-comment"></span>
+    
+    <span class="hljs-comment">//Time Start and Time end</span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> icoStartTimestampStage = <span class="hljs-number">1532563200</span>;             <span class="hljs-comment">//07/26/2018 @ 12:00am (UTC)</span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> icoEndTimestampStage = <span class="hljs-number">1540598399</span>;               <span class="hljs-comment">//10/26/2018 @ 11:59pm (UTC)</span>
+    <span class="hljs-keyword">uint256</span> <span class="hljs-keyword">public</span> tokensTeamBlockedTimestamp = <span class="hljs-number">1572134399</span>;         <span class="hljs-comment">//10/26/2019 @ 11:59pm (UTC)</span>
+
+<span class="hljs-comment"></span>
+    <span class="hljs-function"><span class="hljs-keyword">event</span> <span class="hljs-title">Burn</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> <span class="hljs-keyword">indexed</span> burner, <span class="hljs-keyword">uint256</span> value</span>)</span>;  
+<span class="hljs-comment"></span>
+       
+    constructor() <span class="hljs-keyword">public</span> {         
+      walletETH = <span class="hljs-number">0x4B8353Df6F3a0775C4a428453eCF5289867005c2</span>;
+      tokenSale = <span class="hljs-number">0x9eEb17dcC7494A40876b5e91a97Ec7BdFD1eb83D</span>;                 <span class="hljs-comment">//50%     </span>
+      bounty = <span class="hljs-number">0x16F96C97487e27003cE1Ce37d7C95ab3E11BD6fe</span>;                    <span class="hljs-comment">//15%</span>
+      awardsReservations = <span class="hljs-number">0x9Be9a6bA9Bc24c87DbC97F01594E81Ec4cFC5008</span>;        <span class="hljs-comment">//23% </span>
+
+      <span class="hljs-comment">//Distribution Token  </span>
+      balances[tokenSale] = totalSupply.mul(<span class="hljs-number">50</span>).div(<span class="hljs-number">100</span>);             <span class="hljs-comment">//totalSupply * 50%  </span>
+      balances[bounty] = totalSupply.mul(<span class="hljs-number">15</span>).div(<span class="hljs-number">100</span>);                <span class="hljs-comment">//totalSupply * 15%</span>
+      balances[contractAddress] = totalSupply.mul(<span class="hljs-number">12</span>).div(<span class="hljs-number">100</span>);       <span class="hljs-comment">//totalSupply * 12%</span>
+      balances[awardsReservations] = totalSupply.mul(<span class="hljs-number">23</span>).div(<span class="hljs-number">100</span>);    <span class="hljs-comment">//totalSupply * 23% </span>
+     
+      <span class="hljs-comment">//set token to sale</span>
+      totalTokenToSale = balances[tokenSale];           
+    }
+
+ <span class="hljs-comment"></span>
+    <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">acceptsFunds</span>(<span class="hljs-params"></span>) </span>{   
+        require(<span class="hljs-built_in">now</span> &gt;= icoStartTimestampStage);          
+        require(<span class="hljs-built_in">now</span> &lt;= icoEndTimestampStage); 
+        _;
+    }    
+
+    <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">nonZeroBuy</span>(<span class="hljs-params"></span>) </span>{
+        require(<span class="hljs-built_in">msg</span>.value &gt; <span class="hljs-number">0</span>);
+        _;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">modifier</span> <span class="hljs-title">PauseEmergence</span> </span>{
+        require(!pauseEmergence);
+       _;
+    } 
+
+<span class="hljs-comment"></span>
+    <span class="hljs-comment">/// fallback function to buy tokens</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) <span class="hljs-title">PauseEmergence</span> <span class="hljs-title">nonZeroBuy</span> <span class="hljs-title">acceptsFunds</span> <span class="hljs-title">payable</span> <span class="hljs-title"><span class="hljs-keyword">public</span></span> </span>{  
+        <span class="hljs-keyword">uint256</span> amount = <span class="hljs-built_in">msg</span>.value.mul(rate);
+        
+        assignTokens(<span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>, amount);
+        totalRaised = totalRaised.add(<span class="hljs-built_in">msg</span>.value);
+        forwardFundsToWallet();
+    } 
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">forwardFundsToWallet</span>(<span class="hljs-params"></span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> </span>{
+        <span class="hljs-comment">// immediately send Ether to wallet address, propagates exception if execution fails        </span>
+        walletETH.transfer(<span class="hljs-built_in">msg</span>.value); 
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">assignTokens</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> recipient, <span class="hljs-keyword">uint256</span> amount</span>) <span class="hljs-title"><span class="hljs-keyword">internal</span></span> </span>{
+        <span class="hljs-keyword">uint256</span> amountTotal = amount;       
+        
+        balances[tokenSale] = balances[tokenSale].sub(amountTotal);   
+        balances[recipient] = balances[recipient].add(amountTotal);
+        tokensSold = tokensSold.add(amountTotal);        
+       
+        <span class="hljs-comment">//test token sold, if it was sold more than the total available right total token total</span>
+        <span class="hljs-keyword">if</span> (tokensSold &gt; totalTokenToSale) {
+            <span class="hljs-keyword">uint256</span> diferenceTotalSale = totalTokenToSale.sub(tokensSold);
+            totalTokenToSale = tokensSold;
+            totalSupply = tokensSold.add(diferenceTotalSale);
+        }
+        
+        emit Transfer(<span class="hljs-number">0x0</span>, recipient, amountTotal);
+    }  
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">manuallyAssignTokens</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> recipient, <span class="hljs-keyword">uint256</span> amount</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{
+        require(tokensSold &lt; totalSupply);
+        assignTokens(recipient, amount);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setRate</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> _rate</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{ 
+        require(_rate &gt; <span class="hljs-number">0</span>);               
+        rate = _rate;        
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setPauseEmergence</span>(<span class="hljs-params"></span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{        
+        pauseEmergence = <span class="hljs-literal">true</span>;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setUnPauseEmergence</span>(<span class="hljs-params"></span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{        
+        pauseEmergence = <span class="hljs-literal">false</span>;
+    }   
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendTokenTeamAdvisor</span>(<span class="hljs-params"><span class="hljs-keyword">address</span> walletTeam</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">onlyOwner</span> </span>{
+        <span class="hljs-comment">//test deadline to request token</span>
+        require(<span class="hljs-built_in">now</span> &gt;= tokensTeamBlockedTimestamp);
+        require(walletTeam != <span class="hljs-number">0x0</span>);       
+        
+        <span class="hljs-keyword">uint256</span> amount = <span class="hljs-number">240000000</span> * (<span class="hljs-number">10</span> ** decimals);
+        
+        <span class="hljs-comment">//send tokens </span>
+        balances[contractAddress] = <span class="hljs-number">0</span>;
+        balances[walletTeam] = balances[walletTeam].add(amount);       
+        
+        emit Transfer(contractAddress, walletTeam, amount);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">burn</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span> _value</span>) <span class="hljs-title"><span class="hljs-keyword">public</span></span> <span class="hljs-title">whenNotPaused</span> </span>{
+        require(_value &gt; <span class="hljs-number">0</span>);
+
+        <span class="hljs-keyword">address</span> burner = <span class="hljs-built_in">msg</span>.<span class="hljs-built_in">sender</span>;
+        balances[burner] = balances[burner].sub(_value);
+        totalSupply = totalSupply.sub(_value);
+        emit Burn(burner, _value);
+    }       
+}</code></pre>
+        
+    </div>
+</div>

@@ -1,0 +1,18 @@
+[
+    {
+        "id": null,
+        "name": "Todos os Países"
+    },
+    {
+        "id": "us",
+        "name": "Estados Unidos"
+    },
+    {
+        "id": "br",
+        "name": "Brasil"
+    },
+    {
+        "id": "au",
+        "name": "Austrália"
+    }
+]

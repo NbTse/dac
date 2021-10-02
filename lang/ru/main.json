@@ -1,0 +1,177 @@
+{
+    "title": "Leaxcoin - The Evolution of Blockchain for the Real Estate",
+    "menuItems": [
+        {"label": "Home", "href": "#home", "active": "active"},
+        {"label": "Platforms", "href": "#property-registry"},
+        {"label": "Wallets", "href": "#access-your-wallet"},
+        {"label": "Community", "href": "#community-support"},
+        {"label": "Roadmap", "href": "#the-roadmap"},
+        {"label": "Whitepaper", "href": "https://leax.io/whitepaper-leaxcoin.pdf", "target": "_blank"}
+    ],
+    "followUs": "Follow Us",
+    "walletWeb": "Wallet Web",
+    "mainImage": {
+        "src": "/img/txt-bs.png",
+        "alt": "The tecnology that builds the future. Now building the real estate market."
+    },
+    "mainText": {
+        "top": "The Blockchain Evolution",
+        "main": "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+        "typed": [
+            "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+            "The Evolution Of The <br> Real Estate.<br><strong>A New Currency.</strong>"
+        ],
+        "bottom": "Away with all the real estate transaction problems. <br> A strong cryptocurrency in the market!",
+        "play": "Play video",
+        "youtubeVideo": ""
+    },
+    "about": {
+        "top": "О ВАЛЮТЕ",
+        "title": "ЧТО ТАКОЕ <strong>LEAXCOIN?</strong>",
+        "paragraphs": [
+            "В гостях со всеми проблемами сделок с недвижимостью! Сильная мировая валюта! «Leaxcoin — это децентрализованная глобальная валюта, использующая технологию blockchain Ethereum, лидера в эволюции смарт-контрактов. Платформа Leaxcoin — предлагает решение всех проблем, связанных со всеми операциями с недвижимостью, при покупке, аренде либо продаже с дальнейшим реестром имущества.",
+            "Успех платформы Leaxcoin будет полностью реализован с помощью глобального сообщества спеалистов в области недвижимости, опытных разработчиков, которые создадут комплекс необходимых инструментов для подключения всех процессов в сферу недвижимости и регулирующих агенств регистрации собственности в blockchain что будет соответствовать всем юридическим нормам, а также с юрисдикции всех государств.»"
+        ],
+        "button": "Читать Whitepaper"
+    },
+    "ecosystem": {
+        "top": "ПЛАТФОРМА",
+        "title": "НАША ЭКОСИСТЕМА И <br><strong>ГЛОБАЛЬНОЕ СООБЩЕСТВО</strong>",
+        "tags": "ИНВЕСТОРЫ • ТРАДИЦИОННЫЕ ПЕРЕГОВОРНЫЕ КОМПАНИИ ПО НЕДВИЖИМОСТИ • ВЛАДЕЛЬЦЫ • БРОКЕРЫ • АГЕНТЫ ПО НЕДВИЖИМОСТИ • ОРГАНИЗАЦИИ • РЕЕСТРОВЫЕ ОФИСЫ • НЕДВИЖИМОСТЬ • АГЕНТСТВА • СПЕЦИАЛИСТЫ ПО НЕДВИЖИМОСТИ • РАЗРАБОТЧИКИ",
+        "paragraphs": [
+            "Все вместе, создавая интегрированную охватывающую экосистему, чтобы облегчить включение процесса недвижимости в блокнон..",
+            "<i><strong>ОДНА ОСТАНОВКА ДО ПРИНЯТИЯ ВСЕХ ПРОЦЕССОВ В НЕДВИЖИМОСТИ.</strong></i>",
+            " Таким образом, Leaxcoin позволяет объеденить все традиционные и криптовалютные инвестиции, обеспечивая более быструю скорость в процессе оформления с меньшей бюрократией.",
+            "и все это в формате ДЕЦЕНТРАЛИЗОВАННОГО ГЛОБАЛЬНОГО СООБЩЕСТВА!"
+        ]
+    },
+    "following": {
+        "top": "НАША ПЛАТФОРМА",
+        "title": "СЛЕДУЮЩИЕ <br> <strong>ОСНОВНЫЕ ЭЛЕМЕНТЫ НА КОТОРЫХ МЫ СКОНЦЕНТРИРОВАНЫ:</strong>:",
+        "icons": [
+            {"label": "РЕЕСТР НЕДВИЖИМОСТИ","img": "/img/property-registry.png"},
+            {"label": "КОНТРАКТЫ, ЛИСТИНГ И CROWDSALE НЕДВИЖИМОСТИ","img": "/img/contracts.png"},
+            {"label": "ОФИЦИАЛЬНЫЙ КОШЕЛЁК LEAXCOIN","img": "/img/leaxcoin-wallet.png"},
+            {"label": "СООБЩЕСТВО И ГЛОБАЛЬНАЯ ПОДДЕРЖКА","img": "/img/community-support.png"}
+        ]
+    },
+    "propertyRegistry": {
+        "top": "ПЛАТФОРМА РЕГИСТРАЦИИ ИМУЩЕСТВА",
+        "title": "РЕГИСТРАЦИЯ <strong>ИМУЩЕСТВА</strong>",
+        "paragraphs": [
+            "«Вся среда платформы, предназначеня для местных и глобальных сообществ с инструментами, приложениями и решениями для полной интеграции с реестром, нотариусом и государственными учреждениями, в соответствии с местной юрисдикцией передачи прав на владение",
+            "Платформа Leaxcoin защищена в blockchain и обеспечивает первозданность и неизменность базы данных»",
+            "<i><strong>Поскольку безопасность информации и документов является нашим приоритетом номер один!</strong></i>"
+        ],
+        "icons": [
+            {"label": "ПРОСТА, ЛЕГКАЯ И ИНТУИТИВНО ПОНЯТНАЯ СИСТЕМА","img": "/img/icon-simple-easy.png"},
+            {"label": "ВЗАИМОДЕЙСТВИЕ, ОБСЛУЖИВАНИЕ И РЕГИСТРАЦИЯ НЕДВИЖИМОСТИ","img": "/img/icon-real-estate-registry.png"},
+            {"label": "БОЛЬШОЕ ГЛОБАЛЬНОЕ СООБЩЕСТВО","img": "/img/icon-large-community.png"}
+        ],
+        "button1": "Test MVP",
+        "button2": "Show Architecture"
+    },
+    "smartContracts": {
+        "top": "СМАРТ КОНТРАКТЫ ПЛАТФОРМЫ",
+        "title": "СМАРТ КОНТРАКТЫ &#8212; <br> <strong>КОНТРАКТЫ, ЛИСТИНГ И CROWDSALE НЕДВИЖИМОСТИ</strong>",
+        "paragraphs": [
+            "«Leaxcoin станет крупнейшей глобальной средой Смарт-Контрактов не только для инновационного проекта, который он предоставляет, но и для неустанных усилий всех вовлеченных людей, когда речь идет об интеграции всех утвержденных правил передачи собственности на платформу.",
+            "Гарантия безопасности является основным направлением, чтобы обеспечить соблюдение каждого государственного регулирования, правовых норм и юрисдикции.",
+            "Достигнув этих целей, мы сможем оказать влияние на частный сектор и достичь одобрения Государственного Департамента в поисках эффективного и быстрого способа уменьшения риском мошенничества.»"
+        ],
+        "icon1": "ГЛОБАЛЬНАЯ ПЛАТФОРМА КОНТРАКТОВ НА НЕДВИЖИМОСТЬ",
+        "icon2": "ЛИСТИНГ И ВОЗМОЖНОСТИ ДЛЯ НЕДВИЖИМОСТИ",
+        "icon3": "CROWDSALE — ЗАПУСК НЕДВИЖИМОСТИ",
+        "button": "Show Architecture"
+    },
+    "wallet": {
+        "top": "ОФИWИАЛЬНЫЙ КОШЕЛЁК",
+        "title": "ОФИЦИАЛЬНЫЙ <strong>LEAXCOIN КОШЕЛЁК</strong> • <br> <strong>БЕЗОПАСНОСТЬ И КОНФИДЕНЦИАЛЬНОСТЬ</strong>",
+        "paragraphs": [
+            "Кошелёк Leax будет разработан в сети blockchain Ethereum, являясь зашифрованным, исключаются риски мошенничества и кражи, включая функции отправки, получения и покупки токенов."
+        ],
+        "icon1": {
+            "title": "БЕЗОПАСНОСТЬ",
+            "description": "Активы блокируются в локальном хранилище кошельков, на респределенном сервере"
+        },
+        "icon2": {
+            "title": "КОНФИДЕНЦИАЛЬНОСТЬ",
+            "description": "Никакие личные данные или личная информация не сохраняются на распределенных серверах"
+        },
+        "button": "Show Architecture"
+    },
+    "access": {
+        "top": "ВЫ ИСПОЛЬЗУЕТЕ ДЛЯ ОТПРАВКИ, ПОЛУЧЕНИЯ, ХРАНЕНИЯ ВАШЕГО LEAX.",
+        "title": "ДОСТУП <strong>ВАШ КОШЕЛЕК</strong>",
+        "comingSoon": "Coming Soon"
+    },
+    "communitySupport": {
+        "top": "ДЕЦЕНТРАЛИЗОВАННОЕ СООБЩЕСТВО",
+        "title": "СООБЩЕСТВО & <strong>ГЛОБАЛЬНАЯ ПОДДЕРЖКА</strong>",
+        "paragraphs": [
+            "«The Leaxcoin is very proud of being a real community with real estate specialists from all over the world. Together, we join forces to build a global community of the blockchain revolution enthusiasts, providing new resources to foment the real estate world revolution.",
+            "The community is actively encouraged and rewarded for getting involved in the development, marketing and real estate solutions.»",
+            "<i><strong>Если вы хотите присоединиться к нашему сообществу, то станье амбассадором в своем городе, штате или стране!</strong></i>"
+        ],
+        "icon1": "ДЕЦЕНТРАЛИЗОВАННАЯ ОРГАНИЗАЦИЯ",
+        "icon2": "АМБАССАДОРЫ ПО ВСЕМУ МИРУ",
+        "icon3": "СТИМУЛИРУЮЩИЕ И НАГРАДНЫЕ ПРОГРАММЫ"
+    },
+    "contract": {
+        "verified": "Verified"
+    },
+    "roadmap": {
+        "top": "НАША СТРАТЕГИЯ",
+        "title": "<strong>ДОРОЖНАЯ КАРТА</strong>",
+        "paragraphs": [
+            "В дорожной карте Leaxcoin основное внимание уделяется разработке платформы, операций, инфраструктуры, новых партнерских отношений и маркетинговых инициатив."
+        ],
+        "timeline": [
+            {"class": "passed ", "position": "top", "year": "2017 - Q3", "content": "Принятие Платформы"},
+            {"class": "passed ", "position": "bottom", "year": "2017 - Q4", "content": "Начало развития сообщества"},
+            {"class": "passed ", "position": "bottom", "year": "2018 - Q1", "content": "Смарт-контракты, токен и ICO Заключение и судебное разбирательство"},
+            {"class": "passed ", "position": "bottom", "year": "2018 - Q2", "content": "Частная распродажа для инвесторов Началось предварительное начало токена"},
+            {"class": "passed", "position": "top", "year": "2018 - Q3", "content": "Запуск ICO (Первоначальное предложение токена)"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "Собственный запуск кошелька Версия веб-кошелька"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "Версия настольного кошелька Кошелек ios для Android"},
+            {"class": "passed", "position": "top", "year": "2018 - Q4", "content": "Начало листинга Exchange"},
+            {"class": "active first", "position": "bottom", "year": "2019 - Q1", "content": "Начало разработки платформы"},
+            {"class": "disabled", "position": "top", "year": "2019 - Q3", "content": "Реестр недвижимости - участие правительства"},
+            {"class": "disabled", "position": "bottom", "year": "2020 - Q2", "content": "Недвижимость список"},
+            {"class": "disabled", "position": "top", "year": "2020 - Q4", "content": "Кроудсэйл - Tokenizing Недвижимость"},
+            {"class": "disabled", "position": "bottom", "year": "2021 - Q1", "content": "Сообщество Награды"},
+            {"class": "disabled", "position": "top", "year": "2021 - Q2", "content": "Участие и расширение сообщества"},
+            {"class": "disabled", "position": "bottom", "year": "2021 - Q3", "content": "Расширение бизнеса в глобальном развитии"}
+        ]
+    },
+    "team": {
+        "top": "КОМАНДА",
+        "title": "<strong>Сообщество - Основная</strong> Инициатива",
+        "paragraphs": [
+            "Leaxcoin это проект с открытым исходным кодом, разработанным глобальным сообществом, полностью самофинансируемых и высококвалифицированных разработчиков, инженеров, дизайнеров, учёных, экономистов и blockchain энтузиатосв которые взяли на себя обязательство работы над Leaxcoin как основной криптовалюты и сделать её доступной для всех децентрализованных технологий."
+        ],
+        "next": "Next",
+        "prev": "Prev",
+        "button": "ПРИСОЕДИНЯЙТЕСЬ К СООБЩЕСТВУ"
+    },
+    "footer": {
+        "top": "ДЕЦЕНТРАЛИЗОВАННОЕ БУДУЩЕЕ",
+        "title": "ПРИСОЕДИНЯЙТЕСЬ К <strong>LEAXCOIN ПРОЕКТУ</strong>",
+        "paragraphs": [
+            "Вы можете присоединиться к сообществу, внося свой вклад в идеи, отзывы, коды, дизайн, поддержку и распространение проекта по всему миру.",
+            "Посетите нашу страницу <strong><a href=\"https://github.com/Leax-Foundation\" target=\"_blank\">GitHub</a></strong> чтобы стать разработчиком.",
+            "Вы можете обсудить любой проект, связанный с Leaxcoin с нашим <strong><a href=\"https://community.leax.io/\" target=\"_blank\">Форум</a></strong>.",
+            "Любой взнос приветствуется."
+        ],
+        "bottom": "Copyright © 2018 Leax Foundation – Leaxcoin (LEAX). All Rights Reserved <br> <a href=\"mailto:contact@leax.io\"><b>contact@leax.io</b></a>"
+    },
+    "alert": {
+        "title": "",
+        "paragraphs": [
+            "Nós, da Leaxcoin, um projeto descentralizado para o setor imobiliário gostaríamos de enviar importante comunicado a todos os membros de nossa comunidade, assim como embaixadores, apoiadores, parceiros e investidores.",
+            "Como se sabe, nos últimos meses, por meio da parceria realizada entre alguns investidores da Leaxcoin e o grupo Bitcoin Banco, o projeto alcançou grande impulsão e expansão nos últimos meses, por meio da colaboração mútua entre os parceiros.",
+            "Contudo, mesmo a parceria tendo trazido inúmeros efeitos positivos para todas as partes, em razão de algumas discordâncias estratégicas, sobretudo em relação ao posicionamento futuro do projeto, decidiu-se, em conjunto, encerrá-la. Cada qual seguirá em seu virtuoso caminho de agora em diante.",
+            "Por fim, gostaríamos de informar que a partir de agora teremos alguns membros ativos no Brasil, a fim de desenvolver ainda mais nossa plataforma global, bem como convidar a todos que se interessam pelo projeto de melhoria no setor imobiliário a fazer parte de nossa comunidade. Será um prazer tê-los conosco."
+        ]
+    }
+}

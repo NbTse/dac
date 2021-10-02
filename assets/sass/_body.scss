@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    background-image: url(/img/top-bg.png), url(/img/bg-detail-1.png), url(/img/bg-detail-2.png), url(/img/bg-detail-5.png), url(/img/bg-detail-3.png), url(/img/bg-detail-4.png);
+    background-color: $dark-blue;
+    background-size: 100% auto, 40% auto, 10% auto, 10% auto, 90% auto, 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top, -100px 1100px, right 1500px, left 2500px, left 3700px, center 5700px;
+}
+
+body {
+    &.navbar-fixed-top {
+        padding-top: 77px;
+    }
+}
+
+.window-communication{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 999999;
+    background: rgba(0,0,0,0.4);
+}
+
+.window-communication .window-alert {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    height: 400px;
+    overflow-y: scroll;
+    font-size: 12px;
+}
+
+.window-communication .window-alert h4.title{
+    color:#444;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.window-communication .window-alert .close-window {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 70%;
+    color: #000000;
+    font-size: 22px;
+    background-color:#ffffff;
+    border-radius: 50%;
+    text-align: center; width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        padding: 0;
+        background-image: url(/img/top-bg.png), url(/img/bg-detail-1.png), url(/img/bg-detail-2.png), url(/img/bg-detail-5.png), url(/img/bg-detail-3.png), url(/img/bg-detail-4.png);
+        background-size: 100% auto, 40% auto, 10% auto, 10% auto, 90% auto, 100% auto;
+        background-repeat: no-repeat;
+        background-position: center top, -100px 1100px, right 1500px, left 2500px, left 3600px, center 5350px;
+    }
+
+    .window-communication{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        z-index: 99999;
+    }
+
+    .window-communication .window-alert {
+        width: 700px;
+        padding: 15px;
+        background: #fff;
+        margin: 150px auto 0 auto;
+        z-index: 99999;
+        border-radius: 5px;
+        border: 3px solid #000000;
+        box-shadow: 10px 10px rgba(0,0,0,0.4);
+        height: 450px;
+        overflow-y: scroll;
+        font-size: 16px;
+    }
+    .window-communication .window-alert .close-window {
+        margin-left: 665px;
+    }
+    .window-communication .window-alert h4.title{
+        color:#444;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+}

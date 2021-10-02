@@ -1,0 +1,177 @@
+{
+    "title": "Leaxcoin - The Evolution of Blockchain for the Real Estate",
+    "menuItems": [
+        {"label": "主页", "href": "#home", "active": "active"},
+        {"label": "钱包", "href": "#property-registry"},
+        {"label": "社区", "href": "#access-your-wallet"},
+        {"label": "平台", "href": "#community-support"},
+        {"label": "路线图", "href": "#the-roadmap"},
+        {"label": "白皮书", "href": "https://leax.io/whitepaper-leaxcoin.pdf", "target": "_blank"}
+    ],
+    "followUs": "Follow Us",
+    "walletWeb": "Wallet Web",
+    "mainImage": {
+        "src": "/img/txt-bs.png",
+        "alt": "The tecnology that builds the future. Now building the real estate market."
+    },
+    "mainText": {
+        "top": "The Blockchain Evolution",
+        "main": "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+        "typed": [
+            "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+            "The Evolution Of The <br> Real Estate.<br><strong>A New Currency.</strong>"
+        ],
+        "bottom": "Away with all the real estate transaction problems. <br> A strong cryptocurrency in the market!",
+        "play": "Play video",
+        "youtubeVideo": ""
+    },
+    "about": {
+        "top": "关于货币",
+        "title": "什么是 <strong>Leaxcoin</strong>?",
+        "paragraphs": [
+            "远离一切房地产交易问题！ 世界性的强势货币！ <strong>Leaxcoin</strong>是一种去中心化的全球货币，围绕着太坊区块链技术为基础，这是智能合约发展的主导。 <strong>Leaxcoin</strong>平台将配备了能解决房地产交易中现有问题的方案，无论是在购买，租赁，租赁和房地产发布，还是在房产登记处。",
+            "<strong>Leaxcoin</strong>平台的成功将由全球房地产专家和经验丰富的开发团队实现，他们将创建必需的工具来连接所有房地产流程和区块链的财产登记监管机构，一切都会符合每个国家，州和城市的无数司法管辖区。"
+        ],
+        "button": "查看白皮书"
+    },
+    "ecosystem": {
+        "top": "该平台",
+        "title": "我们的生态系统 <br><strong>全球社区</strong>",
+        "tags": "投资者 • 传统房地产谈判代表 • 业主 • 中间人 • 房地产经纪 • 组织 • 登记处 • 房地产 • 机构 • 房地产专家 • 开发商",
+        "paragraphs": [
+            "每个人在一起，共同创建一个综合的包容性生态系统，以促成区块链中的房地产过程。",
+            "<i><strong>一站式托管一切的房地产流程</strong></i>",
+            "经这方式，Leaxcoin可统一全部传统和加密投资，确保更快的速度，减少官僚过程。",
+            "而这一切都是根据于全面去中心的全球社区格式！"
+        ]
+    },
+    "following": {
+        "top": "我们的平台",
+        "title": "以下 <br> <strong>要素为主要重点</strong>:",
+        "icons": [
+            {"label": "产业登记;","img": "/img/property-registry.png"},
+            {"label": "合同, 上市和房地产众筹","img": "/img/contracts.png"},
+            {"label": "官方LEAXCOIN钱包","img": "/img/leaxcoin-wallet.png"},
+            {"label": "社区和全球支持","img": "/img/community-support.png"}
+        ]
+    },
+    "propertyRegistry": {
+        "top": "物业登记处平台",
+        "title": "产业 <strong>登记处</strong>",
+        "paragraphs": [
+            "整个平台环境适用于本地和全球社区，其工具，应用程序和解决方案与与登记处，公证和政府机构完全整合，并遵循当地管辖权转让所有权契约。",
+            "Leaxcoin平台受区块链防护，确保一个不可被更改的数据库。",
+            "<i><strong>信息和文件安全是我们的首要议题！</strong></i>"
+        ],
+        "icons": [
+            {"label": "简单，易用和直观的系统","img": "/img/icon-simple-easy.png"},
+            {"label": "登记处互动和维护","img": "/img/icon-real-estate-registry.png"},
+            {"label": "强大全球社区","img": "/img/icon-large-community.png"}
+        ],
+        "button1": "Test MVP",
+        "button2": "Show Architecture"
+    },
+    "smartContracts": {
+        "top": "智能合约平台;",
+        "title": "智能合约 &#8212; <br> <strong>合同，列出和房地产众募</strong>",
+        "paragraphs": [
+            "<strong>Leaxcoin</strong>将是智能合约中最大的全球参考，不仅适用于它所介绍的创新项目，而且亦适用于所做出的不懈努力的相关群众在将所有已获得法规批准的物业转移与整合到平台内。",
+            "安全保障是主干焦点，以确保遵守每个司法管辖区内的每项政府法规。",
+            "通过实现这些目标，我们将能够影响私营部门并到达国务院，不断寻找有效和快速的方法来减少欺诈风险。"
+        ],
+        "icon1": "房地产合同全球平台",
+        "icon2": "房地产上市和机会",
+        "icon3": "众募 – 房地产发布",
+        "button": "Show Architecture"
+    },
+    "wallet": {
+        "top": "钱包官方",
+        "title": "<strong>官方LEAXCOIN钱包 • 安全和隐私</strong>",
+        "paragraphs": [
+            "Leax钱包将在以太坊区块链网络上充分发展，该网络经加密以防止欺诈和盗窃，具有发送，接收和令牌购买功能"
+        ],
+        "icon1": {
+            "title": "安全",
+            "description": "资产是被锁定在钱包的本地存储中，隔离任何服务器。"
+        },
+        "icon2": {
+            "title": "隐私",
+            "description": "任何服务器上都不存储个人数据或私人信息。"
+        },
+        "button": "Show Architecture"
+    },
+    "access": {
+        "top": "你用它来发送，接收和存储你的LEAX",
+        "title": "<strong>进入你的钱包</strong>",
+        "comingSoon": "Coming Soon"
+    },
+    "communitySupport": {
+        "top": "去中心的社区",
+        "title": "<strong>社区和全球支援</strong>",
+        "paragraphs": [
+            "Leaxcoin非常自豪地成为一个实际的社区，拥有来自世界各地的房地产专家。 我们携手合作，共设区块链革命拥护者的全球社群，为煽动房地产世界革命提供新颖资源。",
+            "积极鼓励和奖励社区参与开发，营销和房地产解决方案。",
+            "<i><strong>欲要加入我们的大家庭，请成为您所在城市，州或国家的大使！</strong></i>"
+        ],
+        "icon1": "去中心化的组织",
+        "icon2": "来自世界各地的大使",
+        "icon3": "激励和奖励计划"
+    },
+    "contract": {
+        "verified": "Verified"
+    },
+    "roadmap": {
+        "top": "我们的策略",
+        "title": "<strong>路线图</strong>",
+        "paragraphs": [
+            "Leaxcoin的路线图集注于平台，操作，基础设施，新的合作伙伴和推销措施的发展。"
+        ],
+        "timeline": [
+            {"class": "passed", "position": "top", "year": "2017 - Q3", "content": "构思平台"},
+            {"class": "passed", "position": "bottom", "year": "2017 - Q4", "content": "开始社区发展;"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q1", "content": "智能合约, 代币和ICO结论和试验;"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q2", "content": "投资者私售，首次预售启动"},
+            {"class": "passed", "position": "top", "year": "2018 - Q3", "content": "ICO发布（首次代币发行）"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "自家的钱包推出，网络版钱包"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "桌面版钱包 钱包IOS和Android"},
+            {"class": "passed", "position": "top", "year": "2018 - Q4", "content": "开始交易所上市;"},
+            {"class": "active first", "position": "bottom", "year": "2019 - Q1", "content": "平台开发的开始"},
+            {"class": "disabled", "position": "top", "year": "2019 - Q4", "content": "房地产上清单"},
+            {"class": "disabled", "position": "bottom", "year": "2020 - Q3", "content": "众筹 - 代币化房地产"},
+            {"class": "disabled", "position": "top", "year": "2021 - Q3", "content": "产业登记处 - 接触政府"},
+            {"class": "disabled", "position": "top", "year": "2021 - Q4", "content": "奖励社区"},
+            {"class": "disabled", "position": "top", "year": "2022 - Q2", "content": "社区互动和扩展"},
+            {"class": "disabled", "position": "bottom", "year": "2022 - Q3", "content": "扩展业务全球发展;"}
+        ]
+    },
+    "team": {
+        "top": "团队",
+        "title": "<strong>基于社区的计划</strong>",
+        "paragraphs": [
+            "Leaxcoin是一个开源项目，由全球社区打造，由绝对自筹资金和高素质的开发人员，工程师，设计师，学者，经济学家和区块链密码学拥护者倡导，他们致力于将Leaxcoin成为主流的加密货币地位和使去中心化的技术可供给所有人普及地取用。"
+        ],
+        "next": "Next",
+        "prev": "Prev",
+        "button": "加盟我们的社区"
+    },
+    "footer": {
+        "top": "去中心化的未来",
+        "title": "<strong>加入LEAXCOIN项目</strong>",
+        "paragraphs": [
+            "您可以通过在全球范围内提供Leaxcoin项目的概念，反馈，代码，设计，支持和传播来加入成为我们的一分子。",
+            "游览我们的 <strong><a href=\"https://github.com/Leax-Foundation\" target=\"_blank\">GitHub</a></strong> 页面成为开发员。",
+            "亦欢迎您在中与我们友好的社群讨论与Leaxcoin相关的任何项目<strong><a href=\"https://community.leax.io/\" target=\"_blank\">论坛。</a></strong>",
+            "绝对欢迎任何贡献。"
+        ],
+        "bottom": "Copyright © 2018 Leax Foundation – Leaxcoin (LEAX). All Rights Reserved <br> <a href=\"mailto:contact@leax.io\"><b>contact@leax.io</b></a>"
+    },
+    "alert": {
+        "title": "",
+        "paragraphs": [
+            "Nós, da Leaxcoin, um projeto descentralizado para o setor imobiliário gostaríamos de enviar importante comunicado a todos os membros de nossa comunidade, assim como embaixadores, apoiadores, parceiros e investidores.",
+            "Como se sabe, nos últimos meses, por meio da parceria realizada entre alguns investidores da Leaxcoin e o grupo Bitcoin Banco, o projeto alcançou grande impulsão e expansão nos últimos meses, por meio da colaboração mútua entre os parceiros.",
+            "Contudo, mesmo a parceria tendo trazido inúmeros efeitos positivos para todas as partes, em razão de algumas discordâncias estratégicas, sobretudo em relação ao posicionamento futuro do projeto, decidiu-se, em conjunto, encerrá-la. Cada qual seguirá em seu virtuoso caminho de agora em diante.",
+            "Por fim, gostaríamos de informar que a partir de agora teremos alguns membros ativos no Brasil, a fim de desenvolver ainda mais nossa plataforma global, bem como convidar a todos que se interessam pelo projeto de melhoria no setor imobiliário a fazer parte de nossa comunidade. Será um prazer tê-los conosco."
+        ]
+    }
+}

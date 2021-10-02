@@ -1,0 +1,177 @@
+{
+    "title": "Leaxcoin - The Evolution of Blockchain for the Real Estate",
+    "menuItems": [
+        {"label": "Home", "href": "#home", "active": "active"},
+        {"label": "Platforms", "href": "#property-registry"},
+        {"label": "Wallets", "href": "#access-your-wallet"},
+        {"label": "Community", "href": "#community-support"},
+        {"label": "Roadmap", "href": "#the-roadmap"},
+        {"label": "Whitepaper", "href": "https://leax.io/whitepaper-leaxcoin.pdf", "target": "_blank"}
+    ],
+    "followUs": "Follow Us",
+    "walletWeb": "Wallet Web",
+    "mainImage": {
+        "src": "/img/txt-bs.png",
+        "alt": "The tecnology that builds the future. Now building the real estate market."
+    },
+    "mainText": {
+        "top": "The Blockchain Evolution",
+        "main": "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+        "typed": [
+            "A New Currency. <br><strong>The Real Estate <br>Evolution.</strong>",
+            "The Evolution Of The <br> Real Estate.<br><strong>A New Currency.</strong>"
+        ],
+        "bottom": "Away with all the real estate transaction problems. <br> A strong cryptocurrency in the market!",
+        "play": "Play video",
+        "youtubeVideo": ""
+    },
+    "about": {
+        "top": "A PROPOSITO DELLA VALUTA",
+        "title": "COS’È <strong>Leaxcoin</strong>?",
+        "paragraphs": [
+            "Niente più problemi di transazioni immobiliari. È arrivata una forte criptovaluta! Leaxcoin è una valuta globale decentralizzata che adotta la tecnologia blockchain di Ethereum, leader nell’evoluzione degli smart contract (contratti intelligenti). La piattaforma Leaxcoin fornisce la soluzione a tutti i problemi legati alle transazioni immobiliari, sia nell’acquisto, locazione, leasing e lancio di società immobiliari che nel registro immobiliare.",
+            "Il successo della piattaforma Leaxcoin sarà pienamente raggiunto con una comunità globale di costruttori e professionisti del settore immobiliare, i quali creeranno gli strumenti necessari per collegare tutti i processi e le agenzie di regolamentazione della registrazione immobiliare in una blockchain, il tutto in conformità con le innumerevoli giurisdizioni di ogni paese, stato e città."
+        ],
+        "button": "Leggi il whitepaper"
+    },
+    "ecosystem": {
+        "top": "LA PIATTAFORMA",
+        "title": "IL NOSTRO ECOSISTEMA UNA <br><strong>COMUNITÀ GLOBALE</strong>",
+        "tags": "INVESTITORI • NEGOZIATORI IMMOBILIARI TRADIZIONALI • PROPRIETARI • BROKER • AGENTI IMMOBILIARI • ORGANIZZAZIONI • UFFICI DEL REGISTRO • PROPRIETÀ IMMOBILIARI • AGENZIE • SPECIALISTI IMMOBILIARI • SVILUPPATORI",
+        "paragraphs": [
+            "Tutti insieme per creare un ecosistema integrato che favorisca l’inclusione del processo immobiliare nella blockchain.",
+            "<i><strong>UNO SPORTELLO UNICO PER TUTTI I PROCESSI IMMOBILIARI.</strong></i>",
+            "In questo modo, Leaxcoin permette di unificare investimenti tradizionali e cripto, garantendo una maggiore rapidità nel processo, con meno burocrazia.",
+            "E tutto questo in una COMUNITÀ GLOBALE totalmente DECENTRALIZZATA!"
+        ]
+    },
+    "following": {
+        "top": "LA NOSTRA PIATTAFORMA",
+        "title": "I SEGUENTI<br><strong>ELEMENTI SONO AL CENTRO DELL’ATTENZIONE:</strong>:",
+        "icons": [
+            {"label": "REGISTRO IMMOBILIARE","img": "/img/property-registry.png"},
+            {"label": "CONTRATTI, ANNUNCI E<br>VENDITA DI BENI IMMOBILI","img": "/img/contracts.png"},
+            {"label": "PORTAFOGLIO LEAXCOIN UFFICIALE","img": "/img/leaxcoin-wallet.png"},
+            {"label": "COMUNITÀ E SUPPORTO GLOBALE","img": "/img/community-support.png"}
+        ]
+    },
+    "propertyRegistry": {
+        "top": "PIATTAFORMA DEL REGISTRO IMMOBILIARE",
+        "title": "<strong>REGISTRO IMMOBILIARE</strong>",
+        "paragraphs": [
+            "L’intero ambiente della piattaforma è destinato alle comunità locali e globali, con strumenti, applicazioni e soluzioni per una piena integrazione con le istituzioni anagrafiche, notarili e governative, seguendo la giurisdizione locale per il trasferimento degli atti di proprietà.",
+            "La piattaforma Leaxcoin è protetta da una blockchain che garantisce un database inalterabile.",
+            "<i><strong>La sicurezza delle informazioni e dei documenti è la nostra priorità!</strong></i>"
+        ],
+        "icons": [
+            {"label": "UN SISTEMA SEMPLICE E INTUITIVO","img": "/img/icon-simple-easy.png"},
+            {"label": "INTERAZIONE E AGGIORNAMENTO DEL REGISTRO IMMOBILIARE","img": "/img/icon-real-estate-registry.png"},
+            {"label": "GRANDE COMUNITÀ GLOBALE","img": "/img/icon-large-community.png"}
+        ],
+        "button1": "Test MVP",
+        "button2": "Show Architecture"
+    },
+    "smartContracts": {
+        "top": "PIATTAFORMA PER SMART CONTRACT",
+        "title": "SMART CONTRACT &#8212; <br> <strong>CONTRATTI, ANNUNCI E VENDITE IMMOBILIARI</strong>",
+        "paragraphs": [
+            "Leaxcoin sarà il più grande riferimento globale per gli smart contract, non solo per il progetto innovativo che rappresenta, ma anche per l’instancabile impegno di coloro che sono coinvolti nell’integrazione nella piattaforma di tutte le normative approvate sul trasferimento di proprietà.",
+            "La garanzia di sicurezza è l’obiettivo principale, per assicurare che ogni regolamentazione governativa sia rispettata in ogni giurisdizione.",
+            "Con il raggiungimento di questi obiettivi, saremo in grado di incidere sul settore privato e raggiungere i servizi pubblici, sempre alla ricerca di modi efficaci e rapidi per mitigare i rischi di frode."
+        ],
+        "icon1": "PIATTAFORMA GLOBALE DEI CONTRATTI IMMOBILIARI",
+        "icon2": "QUOTAZIONI E OPPORTUNITÀ IMMOBILIARI",
+        "icon3": "LANCIO VENDITE IMMOBILIARI",
+        "button": "Show Architecture"
+    },
+    "wallet": {
+        "top": "PORTAFOGLIO UFFICIALE",
+        "title": "PORTAFOGLIO UFFICIALE LEAXCOIN &#8212; SICUREZZA E PRIVACY</strong>",
+        "paragraphs": [
+            "Il portafoglio Leax sarà interamente sviluppato sulla rete blockchain di Ethereum, criptata per prevenire frodi e furti, con funzioni di invio, ricezione e acquisto di token."
+        ],
+        "icon1": {
+            "title": "SICUREZZA",
+            "description": "I beni sono bloccati nella memoria locale dei portafogli, lontano da qualsiasi server."
+        },
+        "icon2": {
+            "title": "PRIVACY",
+            "description": "Sui server non vengono memorizzati dati personali o dati privati."
+        },
+        "button": "Show Architecture"
+    },
+    "access": {
+        "top": "UTILIZZI PER INVIARE, RICEVERE E ARCHIVIARE IL TUO LEAX.",
+        "title": "<strong>ACCETTI IL ​​TUO PORTAFOGLIO:</strong>",
+        "comingSoon": "Coming Soon"
+    },
+    "communitySupport": {
+        "top": "ORGANIZZAZIONE DECENTRALIZZATA",
+        "title": "COMUNITÀ & <strong>SUPPORTO GLOBALE SUPPORT</strong>",
+        "paragraphs": [
+            "Leaxcoin è orgogliosa di essere una vera comunità con specialisti immobiliari di tutto il mondo. Insieme, stiamo unendo le forze per costruire una comunità globale di appassionati della rivoluzione blockchain, fornendo nuove risorse per incoraggiare la rivoluzione globale del settore immobiliare.",
+            "La comunità viene incoraggiata e premiata per il suo coinvolgimento nello sviluppo, nel marketing e nelle soluzioni immobiliari.",
+            "<i><strong>Se vuoi unirti alla nostra comunità, diventa ambasciatore nella tua città, stato o paese!</strong></i>"
+        ],
+        "icon1": "ORGANIZZAZIONE DECENTRALIZZATA",
+        "icon2": "AMBASCIATORI IN TUTTO IL MONDO",
+        "icon3": "PROGRAMMI DI INCENTIVAZIONE E RICOMPENSA"
+    },
+    "contract": {
+        "verified": "Verified"
+    },
+    "roadmap": {
+        "top": "LA NOSTRA STRATEGIA",
+        "title": "The <strong>Roadmap</strong>",
+        "paragraphs": [
+            "La roadmap di Leaxcoin si concentra sullo sviluppo della piattaforma, le operazioni, le infrastrutture, le nuove partnership e le iniziative di marketing."
+        ],
+        "timeline": [
+            {"class": "passed ", "position": "top", "year": "2017 - Q3", "content": "Concepire la piattaforma"},
+            {"class": "passed ", "position": "bottom", "year": "2017 - Q4", "content": "Avvio dello sviluppo della comunità"},
+            {"class": "passed ", "position": "bottom", "year": "2018 - Q1", "content": "Contratti intelligenti, Token ans ICO Conclusione e prova"},
+            {"class": "passed ", "position": "bottom", "year": "2018 - Q2", "content": "Vendita privata per investitori Inizia l&#039;offerta di token iniziali"},
+            {"class": "passed", "position": "top", "year": "2018 - Q3", "content": "Lancio di ICO (Offerta di gettoni iniziali)"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "Lancio del proprio portafoglio Versione Web Wallet"},
+            {"class": "passed", "position": "bottom", "year": "2018 - Q3", "content": "Versione per desktop wallet Portafoglio iOS per Android"},
+            {"class": "passed", "position": "top", "year": "2018 - Q4", "content": "Inizio dell&#039;elenco di scambio"},
+            {"class": "active first", "position": "bottom", "year": "2019 - Q1", "content": "Inizio dello sviluppo della piattaforma"},
+            {"class": "disabled", "position": "top", "year": "2019 - Q4", "content": "Real Estate Listing"},
+            {"class": "disabled", "position": "bottom", "year": "2020 - Q3", "content": "Crowdsale - Tokenizing Real Estate"},
+            {"class": "disabled", "position": "top", "year": "2021 - Q4", "content": "Registro delle Proprietà - Impegno del Governo"},
+            {"class": "disabled", "position": "bottom", "year": "2022 - Q1", "content": "Comunità di premi"},
+            {"class": "disabled", "position": "top", "year": "2022 - Q2", "content": "Coinvolgimento ed Espansione della Comunità"},
+            {"class": "disabled", "position": "bottom", "year": "2022 - Q3", "content": "Espansione del Business Nello Sviluppo Globale"}
+        ]
+    },
+    "team": {
+        "top": "Team",
+        "title": "<strong>Un’iniziativa Basata sulla Comunità</strong>",
+        "paragraphs": [
+            "Leaxcoin è un progetto open source progettato da una comunità globale di sviluppatori, ingegneri, progettisti, designer, accademici, economisti e appassionati di tecnologia blockchain, completamente autofinanziati e altamente qualificati, che si impegnano a portare Leaxcoin sui principali mercati per criptovalute e a rendere le tecnologie decentralizzate pienamente accessibili a tutti."
+        ],
+        "next": "Next",
+        "prev": "Prev",
+        "button": "UNISCITI ALLA NOSTRA COMUNITÀ"
+    },
+    "footer": {
+        "top": "IL FUTURO DECENTRALIZZATO",
+        "title": "PARTECIPA AL <strong>PROGETTO LEAXCOIN</strong>",
+        "paragraphs": [
+            "Puoi unirti alla comunità contribuendo con idee, feedback, programmazione, design, supporto e diffusione in tutto il mondo del progetto Leaxcoin.",
+            "Visita la nostra pagina <strong><a href=\"https://github.com/Leax-Foundation\" target=\"_blank\">GitHub</a></strong> se sei uno sviluppatore.",
+            "Puoi discutere ogni progetto relativo a Leaxcoin con la comunità nei nostri <strong><a href=\"https://community.leax.io/\" target=\"_blank\">Forums</a></strong>.",
+            "Ogni contributo è ben accetto."
+        ],
+        "bottom": "Copyright © 2018 Leax Foundation – Leaxcoin (LEAX). All Rights Reserved <br> <a href=\"mailto:contact@leax.io\"><b>contact@leax.io</b></a>"
+    },
+    "alert": {
+        "title": "",
+        "paragraphs": [
+            "Nós, da Leaxcoin, um projeto descentralizado para o setor imobiliário gostaríamos de enviar importante comunicado a todos os membros de nossa comunidade, assim como embaixadores, apoiadores, parceiros e investidores.",
+            "Como se sabe, nos últimos meses, por meio da parceria realizada entre alguns investidores da Leaxcoin e o grupo Bitcoin Banco, o projeto alcançou grande impulsão e expansão nos últimos meses, por meio da colaboração mútua entre os parceiros.",
+            "Contudo, mesmo a parceria tendo trazido inúmeros efeitos positivos para todas as partes, em razão de algumas discordâncias estratégicas, sobretudo em relação ao posicionamento futuro do projeto, decidiu-se, em conjunto, encerrá-la. Cada qual seguirá em seu virtuoso caminho de agora em diante.",
+            "Por fim, gostaríamos de informar que a partir de agora teremos alguns membros ativos no Brasil, a fim de desenvolver ainda mais nossa plataforma global, bem como convidar a todos que se interessam pelo projeto de melhoria no setor imobiliário a fazer parte de nossa comunidade. Será um prazer tê-los conosco."
+        ]
+    }
+}

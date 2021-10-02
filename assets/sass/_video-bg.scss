@@ -1,0 +1,35 @@
+#video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    video {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .video-frame {
+        background-color: rgba($dark-blue,0.7);
+        background-image: url(/img/video-frame.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        z-index: 9;
+        display: block;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    #video-wrapper {
+        overflow: hidden;
+        video {
+            min-width: 1000px;
+        }
+    }
+}
