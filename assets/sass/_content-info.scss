@@ -4,6 +4,10 @@
     margin-bottom: 50px;
     margin-top: 50px;
 
+    .leax-img {
+        width: 70%;
+    }
+
     p.content-subtitle{
         background-image: url(/img/mini-icon.png);
         background-repeat: no-repeat;
@@ -43,5 +47,14 @@
 
     p.white {
         color: #ffffff !important;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .content-info {
+        .leax-img {
+            width: auto;
+            max-height: 400px;
+        }
     }
 }

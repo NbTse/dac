@@ -92,7 +92,7 @@
                 .col-md-6.text-center.justify-content-center.align-self-center
                     img(src=main.mainImage.src, alt=main.mainImage.alt, class="img-fluid align-middle")
                 .col-md-6
-                    img(src="/img/banner-agencia.png", alt="Leaxcoin", class="img-fluid img-floating img-agency" style="opacity: 0;")
+                    img(src="/img/banner-agencia-1.png", alt="Leaxcoin", class="img-fluid img-floating img-agency hide-on-xs" style="opacity: 0;")
 
 
             //- p#typed-top-text.top-text=main.mainText.top
@@ -119,8 +119,8 @@
     <section id="leax" class="content-info">
         <div class="container">
             <div class="row">
-                <div class="col-md-4" data-aos="fade-up">
-                    <img class="img-fluid img-floating" src="/img/banner-agencia.png" alt="What Is Leaxcoin?" style="width: 70%;">
+                <div class="col-md-4" data-aos="fade-up" style="text-align: center;">
+                    <img class="leax-img img-fluid img-floating" src="/img/banner-agencia.png" alt="What Is Leaxcoin?">
                 </div>
                 <div class="col-md-8" data-aos="fade-down">
                     p.content-subtitle=main.about.top
@@ -244,8 +244,8 @@
                         p.content-text !{paragraph}
                 </div>
                 <div class="col-md-6" data-aos="fade-down">
-                    <div style="padding: 0 50px 0 50px">
-                        <img class="img-fluid img-floating" src="/img/smart-contracts.png" alt="Leaxcoin" style="margin-top: 0">
+                    <div style="padding: 0 15px 0 15px;">
+                        <img class="img-fluid img-floating" src="/img/smart-contracts.png" alt="Leaxcoin" style="margin-top: 0;">
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@
             h2.content-title !{main.access.title}
 
             <div id="platform-icons" class="row">
-                <div class="col-md-2 col-6" data-aos="fade-down">
+                <div class="col-md-3 col-6" data-aos="fade-down">
                     <a href="javascript:void(0);" class="platform-icon-wrapper">
                         <div class="platform-icon">
                             <img src="/img/icon-web.png" alt="Web">
@@ -351,7 +351,7 @@
                             small !{"• "+ main.access.comingSoon +" •"}
                     </a>
                 </div>
-                <div class="col-md-2 col-6" data-aos="fade-up">
+                <div class="col-md-3 col-6" data-aos="fade-up">
                     <a href="javascript:void(0);" class="platform-icon-wrapper">
                         <div class="platform-icon">
                             <img src="/img/icon-android.png" alt="Android">
@@ -361,7 +361,7 @@
                             small !{"• "+ main.access.comingSoon +" •"}
                     </a>
                 </div>
-                <div class="col-md-2 col-6" data-aos="fade-down">
+                <div class="col-md-3 col-6" data-aos="fade-down">
                     <a href="javascript:void(0);" class="platform-icon-wrapper">
                         <div class="platform-icon">
                             <img src="/img/icon-apple.png" alt="IOS">
