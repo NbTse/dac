@@ -156,7 +156,7 @@
         "class": "disabled",
         "position": "top",
         "year": "2021.10",
-        "content": "IEO on EXCHANGE"
+        "content": "IEO on MONGOLIAN EXCHANGES"
       },
       {
         "class": "disabled",
@@ -180,20 +180,20 @@
       {
         "class": "disabled",
         "position": "top",
+        "year": "2021.12",
+        "content": "First Portfolio Dividens"
+      },
+      {
+        "class": "disabled",
+        "position": "bottom",
         "year": "2022.01",
         "content": "Decentralized Exchange listing"
       },
       {
         "class": "disabled",
-        "position": "bottom",
-        "year": "2022.02",
-        "content": "First Portfolio Dividens"
-      },
-      {
-        "class": "disabled",
         "position": "top",
         "year": "2022.05",
-        "content": "DAC platform launch"
+        "content": "DA platform launch"
       },
       {
         "class": "disabled",
