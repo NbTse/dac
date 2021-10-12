@@ -149,32 +149,33 @@
       {
         "class": "active first",
         "position": "bottom",
-        "year": "2021.09",
+        "year": "2021.10",
         "content": "DACoin & DAC wallet release"
       },
       {
         "class": "disabled",
         "position": "top",
         "year": "2021.10",
-        "content": "IEO on COINHUB"
+        "content": "IEO on EXCHANGE"
       },
       {
         "class": "disabled",
         "position": "bottom",
         "year": "2021.10",
-        "content": "Initial real estate asset contracts"
+        "content": "Secondary market trading"
       },
+
       {
         "class": "disabled",
         "position": "top",
-        "year": "2021.11",
-        "content": "Secondary market trading"
+        "year": "2021.10",
+        "content": "Initial real estate asset contracts"
       },
       {
         "class": "disabled",
         "position": "bottom",
         "year": "2021.11",
-        "content": "Real Estate Portfolio"
+        "content": "Real Estate Portfolio Finalization"
       },
       {
         "class": "disabled",
@@ -185,7 +186,7 @@
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2022.05",
+        "year": "2022.02",
         "content": "First Portfolio Dividens"
       },
       {
