@@ -7,7 +7,7 @@
     { "label": "Roadmap", "href": "#the-roadmap" },
     {
       "label": "Whitepaper",
-      "href": "https://DACoin.io/whitepaper-DACoin.pdf",
+      "href": "http://da-coin.io/Digital_Asset_Coin_Whitepaper_v1",
       "target": "_blank"
     }
   ],
@@ -234,7 +234,7 @@
       "You are welcome to discuss any project related to DACoin with our<br /> friendly community in our <strong><a href=\"https://community.DACoin.io/\" target=\"_blank\">Forums</a></strong>.",
       "Any contribution will be welcome."
     ],
-    "bottom": "Copyright © 2021 Digital Asset Coin LLC – DACoin (DACoin). All Rights Reserved <br> <a href=\"mailto:info@dac-coin.com\"><b>info@dac-coin.com</b></a>"
+    "bottom": "Copyright © 2021 Digital Asset Coin LLC – DACoin (DACoin). All Rights Reserved <br> <a href=\"mailto:info@da-coin.io\"><b>info@da-coin.io</b></a>"
   },
   "alert": {
     "title": "Warning",
