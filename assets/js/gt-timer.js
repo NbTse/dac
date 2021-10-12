@@ -1,4 +1,4 @@
-var timing = '{"past":-67328,"left":485682}';
+var timing = '{"past":-77993,"left":484793}';
 
 $(document).ready(function() {
   var timingData = JSON.parse(timing);
