@@ -19613,19 +19613,19 @@ function getRandomInt(min, max) {
 
 var timing = '{"past":2733398,"left":1154601}';
 
-$(document).ready(function () {
-  var timingData = JSON.parse(timing);
+// $(document).ready(function () {
+//   var timingData = JSON.parse(timing);
 
-  var timerElement = document.getElementById("mjc_timer");
+//   var timerElement = document.getElementById("mjc_timer");
 
-  var timer = new GT_Timer();
-  timer.init({
-    timerElement: timerElement,
-    past: timingData.past,
-    left: timingData.left
-  });
-  timer.startTimer();
-});
+//   var timer = new GT_Timer();
+//   timer.init({
+//     timerElement: timerElement,
+//     past: timingData.past,
+//     left: timingData.left
+//   });
+//   timer.startTimer();
+// });
 
 var GT_Timer = function GT_Timer() {};
 
