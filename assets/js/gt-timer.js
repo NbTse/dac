@@ -1,15 +1,10 @@
 var timing = '{"past":-77993,"left":484793}';
 
 $(document).ready(function() {
-  console.log("Hello world!!!asdfasdfasdf");
 
   var dateStart = new Date("2021-10-01 00:00:00:000");
-  var dateFinish = new Date("2021-10-18 00:00:00:000");
+  var dateFinish = new Date("2021-10-18 15:00:00:000");
   var dateCurrent = new Date();
-
-  console.log("Start: ", dateStart);
-  console.log("Finish: ", dateFinish);
-  console.log("Current: ", dateCurrent);
 
   var timer = new GT_Timer();
   // var timingData = JSON.parse(timing);
@@ -17,8 +12,6 @@ $(document).ready(function() {
     past: timer.getTimeDiffBySeconds(dateStart, dateCurrent),
     left: timer.getTimeDiffBySeconds(dateCurrent, dateFinish),
   };
-
-  console.log(timingData);
 
   var timerElement = document.getElementById("mjc_timer");
 
