@@ -1,4 +1,4 @@
-# Leaxcoin Website
+# Da-coin Website
 
 ## First
 `npm install`

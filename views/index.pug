@@ -25,7 +25,7 @@
     <header id="home">
         <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">
-                <img src="/img/logo.png" alt="Leaxcoin" style="max-width: 20%;">
+                <img src="/img/logo.png" alt="Da-coin" style="max-width: 20%;">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@
                 .col-md-6.text-center.justify-content-center.align-self-center
                     img(src=main.mainImage.src, alt=main.mainImage.alt, class="img-fluid align-middle")
                 .col-md-6
-                    img(src="/img/banner-agencia-1.png", alt="Leaxcoin", class="img-fluid img-floating img-agency hide-on-xs" style="opacity: 0;")
+                    img(src="/img/banner-agencia-1.png", alt="Da-coin", class="img-fluid img-floating img-agency hide-on-xs" style="opacity: 0;")
 
 
             //- p#typed-top-text.top-text=main.mainText.top
@@ -128,16 +128,16 @@
                     each paragraph in main.about.paragraphs
                         p.content-text !{paragraph}
 
-                    if lang == "pt-br"
-                        <a target="_blank" href="http://da-coin.io/Digital_Asset_Coin_Whitepaper_v1.pdf" class="btn btn-primary btn-lg">
-                            <i class="fa fa-lg fa-book"></i>
-                            span !{main.about.button}
-                        </a>
-                    else 
-                        <a target="_blank" href="http://da-coin.io/Digital_Asset_Coin_Whitepaper_v1.pdf" class="btn btn-primary btn-lg">
-                            <i class="fa fa-lg fa-book"></i>
-                            span !{main.about.button}
-                        </a>
+                    //- if lang == "pt-br"
+                    //-     <a target="_blank" href="#" class="btn btn-primary btn-lg">
+                    //-         <i class="fa fa-lg fa-book"></i>
+                    //-         span !{main.about.button}
+                    //-     </a>
+                    //- else 
+                    //-     <a target="_blank" href="#" class="btn btn-primary btn-lg">
+                    //-         <i class="fa fa-lg fa-book"></i>
+                    //-         span !{main.about.button}
+                    //-     </a>
                 </div>
             </div>
         </div>
@@ -156,45 +156,45 @@
                     each paragraph in main.ecosystem.paragraphs
                         p.content-text !{paragraph}
                 </div>
-                <div class="col-md-6" data-aos="fade-up">
-                    <img class="img-fluid img-floating" src="/img/graph.png" alt="Leaxcoin">
-                </div>
+                //- <div class="col-md-6" data-aos="fade-up">
+                //-     <img class="img-fluid img-floating" src="/img/graph.png" alt="Da-coin">
+                //- </div>
             </div>
         </div>
     </section>
 
 
-    <section id="the-following" class="content-info" data-aos="fade-up">
-        <div class="container">
-            <div class="text-center">
-                //- p.content-subtitle !{main.following.top}
-                h2.content-title !{main.following.title}
-            </div>
+    //- <section id="the-following" class="content-info" data-aos="fade-up">
+    //-     <div class="container">
+    //-         <div class="text-center">
+    //-             //- p.content-subtitle !{main.following.top}
+    //-             h2.content-title !{main.following.title}
+    //-         </div>
             
-            <div id="mjc_timer" class="gt_timer">
-                <div class="gt_timer_unit">
-                    <div class="gt_unit_content day">day</div>
-                </div>
-                <div class="gt_timer_unit">
-                    <div class="gt_unit_content hour">hour</div>
-                </div>
-                <div class="gt_timer_unit">
-                    <div class="gt_unit_content minute">minute</div>
-                </div>
-                <div class="gt_timer_unit">
-                    <div class="gt_unit_content second">second</div>
-                </div>
-            </div>
+    //-         <div id="mjc_timer" class="gt_timer">
+    //-             <div class="gt_timer_unit">
+    //-                 <div class="gt_unit_content day">day</div>
+    //-             </div>
+    //-             <div class="gt_timer_unit">
+    //-                 <div class="gt_unit_content hour">hour</div>
+    //-             </div>
+    //-             <div class="gt_timer_unit">
+    //-                 <div class="gt_unit_content minute">minute</div>
+    //-             </div>
+    //-             <div class="gt_timer_unit">
+    //-                 <div class="gt_unit_content second">second</div>
+    //-             </div>
+    //-         </div>
 
-            //- <div id="platform-items" class="row">
-            //-     each item in main.following.icons
-            //-         div.col-md-3.text-center
-            //-             div.platform-item-img
-            //-                 img(src=item.img, alt=item.label, class="img-fluid hidden")
-            //-             h3 !{item.label}
-            //- </div>
-        </div>
-    </section>
+    //-         //- <div id="platform-items" class="row">
+    //-         //-     each item in main.following.icons
+    //-         //-         div.col-md-3.text-center
+    //-         //-             div.platform-item-img
+    //-         //-                 img(src=item.img, alt=item.label, class="img-fluid hidden")
+    //-         //-             h3 !{item.label}
+    //-         //- </div>
+    //-     </div>
+    //- </section>
 
 
     <section id="property-registry" class="content-info">
@@ -202,7 +202,7 @@
             <div class="row">
                 <div class="col-md-6" data-aos="fade-up">
                     <div class="main-image-wrapper">
-                        <img class="img-fluid img-floating" src="/img/property-registry-platform.png" alt="Leaxcoin" style="margin-top: 0;">
+                        <img class="img-fluid img-floating" src="/img/property-registry-platform.png" alt="Da-coin" style="margin-top: 0;">
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-down">
@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-md-6" data-aos="fade-down">
                     <div style="padding: 0 15px 0 15px;">
-                        <img class="img-fluid img-floating" src="/img/smart-contracts.png" alt="Leaxcoin" style="margin-top: 0;">
+                        <img class="img-fluid img-floating" src="/img/smart-contracts.png" alt="Da-coin" style="margin-top: 0;">
                     </div>
                 </div>
             </div>
@@ -295,7 +295,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6" data-aos="fade-right">
-                    <img src="./img/macbook-and-mobile.png" alt="Leaxcoin Wallet" class="section-img img-floating">
+                    <img src="./img/macbook-and-mobile.png" alt="Da-coin Wallet" class="section-img img-floating">
                 </div>
                 <div class="col-md-6" data-aos="fade-up">
                     <div class="content-info-box">
@@ -412,7 +412,7 @@
     //-             </div>
     //-             <div class="col-md-6" data-aos="fade-up">
     //-                 <div style="padding: 0 20px 0 20px">
-    //-                     <img class="img-fluid main-image " src="/img/global-support.png" alt="Leaxcoin">
+    //-                     <img class="img-fluid main-image " src="/img/global-support.png" alt="Da-coin">
     //-                 </div>
     //-             </div>
     //-         </div>
@@ -571,7 +571,7 @@
             </div>
             
             <div class="footer-logo">
-                <img src="./img/logo-footer.png" alt="Leaxcoin" style="width: 100px;">
+                <img src="./img/logo-footer.png" alt="Da-coin" style="width: 100px;">
             </div>
 
             <div class="footer-links">

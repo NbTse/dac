@@ -4,12 +4,7 @@
     { "label": "Home", "href": "#home", "active": "active" },
     { "label": "Platforms", "href": "#property-registry" },
     { "label": "Wallets", "href": "#access-your-wallet" },
-    { "label": "Roadmap", "href": "#the-roadmap" },
-    {
-      "label": "Whitepaper",
-      "href": "http://da-coin.io/Digital_Asset_Coin_Whitepaper_v1.pdf",
-      "target": "_blank"
-    }
+    { "label": "Roadmap", "href": "#the-roadmap" }
   ],
   "followUs": "Follow Us",
   "walletWeb": "Wallet Web",
