@@ -25,18 +25,19 @@
   },
   "about": {
     "top": "DIGITAL ASSET COIN",
-    "title": "A CRYPTOCURRENCY BACKED BY REAL ESTATE ASSETS",
+    "title": "Digital Asset Coin Ecosystem",
     "paragraphs": [
-      "DIGITAL ASSET COIN (DAC) project merges the crucial concepts of cryptocurrencies, smart contracts, and blockchain with real estate business models. DAC’s business model departs from the high volatility of cryptocurrencies by adopting an asset-backed model (Real Estate Investment Fund). This will be governed by a transparent smart contract ecosystem that lowers barriers to entry for investment by enabling interest in the asset to be easily divided across a wider pool of investors. DAC will also offer investment pooling fractional ownership through tokenization of real estate.The DAC Real Estate Investment Fund will yield to the stakeholders through revenue earned from purchase, operation and sale of commercial real estate assets like a traditional fund."
+      "DIGITAL ASSET COIN (DAC) project merges the concepts of cryptocurrencies, decentralized algorithmic stablecoin, smart contracts, and blockchain with every aspect of the real estate ecosystem.",
+      "DAC will deploy a real estate transaction and asset tokenization platform enabled by smart contracts that solves multiple issues in the real estate sector, such as improved speed, transparency and lower costs of transaction.",
+    "The DAC ecosystem spans the entire real estate space, from development financing to brokerage and lending. It is eliminating traditional investment challenges and entry barriers. In doing so it is facilitating new global investment opportunities, increased asset liquidity and investment efficiency."
     ],
     "button": "Read Whitepaper"
   },
   "ecosystem": {
-    "top": "DIGITAL ASSET PLATFORM",
+    "top": "BUSINESS MODEL",
     "title": "DECENTRALIZED FINANCE IN REAL ESTATE",
     "paragraphs": [
-      "The Digital Asset Platform (DA Platform) is a tokenization and DeFi platform that will create alternative financing opportunities for real estate developers and owners; moreover, create alternative investment opportunities for investors in the real estate industry. The platform will function as a marketplace for tokenized real estate assets and investment offerings. It will offer simple and transparent real estate investment opportunities that eliminate the risks that small investors experience and allow nearly anyone to participate in the real estate industry with predictable and consistent returns.",
-      "On the DA platform investors will be able to exchange DAC for fractional ownership of a real estate asset called Digital Asset Right Token (DART) or invest in the tokenized real estate asset of their choice in fiat currency."
+      "DAC’s business model departs from the high volatility of cryptocurrencies by adopting an asset-backed model (Real Estate Investment Fund). This will be governed by a transparent smart contract ecosystem that lowers barriers to entry for investment by enabling interest in the asset to be easily divided across a wider pool of investors. DAC will also offer investment pooling and fractional digital ownership through tokenization of real estate. The DAC Real Estate Investment Fund will provide yield to stake-holders through revenue earned from purchase, operation and sale of residential and commercial real estate assets like a traditional fund. DAC’s smart contract governed real estate ecosystem will overhaul current inefficiencies in the real estate sector,  from improving the security of purchase and sale transactions to opening up new investment vehicles"
     ]
   },
   "following": {
@@ -59,11 +60,16 @@
     ]
   },
   "propertyRegistry": {
-    "top": "Property Registry Platform",
-    "title": "Property <strong>Registry</strong>",
+    "top": "DAC PLATFORM",
+    "title": "Smart Contract Platform",
     "paragraphs": [
-      "The entire platform environment is intended for local and global communities, with tools, applications and solutions to a full integration with registry, notary and government institutions, following the local jurisdiction for the transfer of title deeds.",
-      "<i><strong>As the information and document security is our <br> number 1 priority!</strong></i>"
+      "The DA Platform is a blockchain based open source real estate platform that is designed to (1) empower hybrid DAO (decentralized autonomous organization) model platform that is community governed (2) process real estate transactions such as simple purchase and selling and renting using smart contracts and (3) decentralized finance platform that will create alternative financing opportunities for real estate developers and asset owners while creating investment opportunities for investors interested in the real estate industry.",
+      "DAO DAC PLATFORM",
+      "DAC Platform will be a smart contract governed DAO ecosystem, where the DAC community and subsequent community will govern their respective decentralized ecosystem.", 
+      "DeFi Platform will incorporate all aspects of the real estate ecosystem, including borrowing, lending, staking and governance of the platform. Once the platform launches, the community will manage the governance of the self sustaining ecosystem. Upon successful implementation and operation of the ecosystem, subsequent real estate DAO communities can be created and will manage their respective DAO ecosystem. This will encourage healthy competition among the communities that will result in smart development and urban planning that will benefit the whole society.",
+      "REAL ESTATE TRANSACTIONS",
+      "Our platform is designed to process real estate transactions using smart contracts whether it be rental or purchase/selling activities. Our platform will be accessible to brokers, buyers, and sellers that are involved in the property transaction  process.",
+      "The initial phase of real estate transactions using our smart contracts will streamline the current transaction process. The ultimate goal is to create a peer-to-peer system that will allow real estate transactions to be processed without third party involvement. Transactions processed on our platform will be charged a transaction fee."
     ],
     "icons": [
       {
@@ -83,17 +89,12 @@
     "button2": "Show Architecture"
   },
   "smartContracts": {
-    "top": "SMART CONTRACTS PLATFORM",
-    "title": "SMART CONTRACTS &#8212; <br> <strong>CONTRACTS, LISTING & <br> REAL ESTATE CROWDSALE</strong>",
+    "top": "REAL ESTATE",
+    "title": "REIT by DAC",
     "paragraphs": [
-      "The DA Platform is a blockchain based open source real estate platform that is designed to (1) empower hybrid DAO (decentralized autonomous organization) governed platform that is community governed (2) process real estate transactions such as simple purchase, sales and renting using smart contracts and (3) decentralized finance platform that will create alternative financing opportunities for real estate developers and asset owners while creating investment opportunities for investors interested in the real estate industry.",
-      "DAO DAC PLATFORM", 
-      "DAC Platform will be a smart contract governed DAO ecosystem, where the DAC community and subsequent community will govern their respective decentralized ecosystem. The DeFi Platform will incorporate all aspects of the real estate ecosystem, including borrowing, lending, staking and governance of the platform. Once the platform launches, the community will self-govern the self sustaining ecosystem. Upon successful implementation and operation of the ecosystem, subsequent real estate DAO communities can be created and will manage their respective DAO ecosystems. This will encourage healthy competition among the communities that will result in smart development and urban planning that will benefit the whole society. The initial phase of real estate transactions using our smart contracts will streamline the current transaction process. The ultimate goal is to create a peer-to-peer system that will allow real estate transactions to be processed without third party involvement. Transactions processed on our platform will be charged a transaction fee.",
-      "BLOCKCHAIN REAL ESTATE TRANSACTIONS",
-      "Our platform is designed to process real estate transactions using smart contracts whether it be rental or purchase/selling activities. Our platform will be accessible to brokers, buyers, and sellers that are involved in the property transaction process. Thye initial phase of real estate transactions using our smart contracts will stteamline the current transaction process. The ultimate goal is to create a peer-to-peer system that will allow real estate transactions to be processed without third party involvement. Transactions processed on our platform will be charged a transaction fee.",      
-      "ASSET TOKENIZATION",
-      "Tokenization makes it possible in a suitable regulatory environment to add new features to asset ownership and trade that were previously unavailable. By allowing an asset to be legally represented by a token on blockchain, the asset can get all of the benefits of a cryptographic token while maintaining its original value. The potential of asset tokenization is exemplified by the tokenization of real estate. With its high pricing, high transaction costs, delayed exchange, and limited access to purchasers, the illiquid real estate market has been the exemplar business to tokenize for supporters of the future tokenized society. The DA Platform will function as a marketplace for all types of real estate assets and investment offerings. It will offer simple and transparent property investments that eliminate the risks that small investors experience and allow nearly anyone to participate in the real estate industry with predictable and consistent returns.", "TRANSACTION AND LISTING FEES",
-      "During the proof of concept stages of the DA platform, all real estate transactions processed will be subject to a transaction fee and all real estate assets will be charged a 0.5-1 percent listing fee based on total required investment size on all assets. Our platform will be accessible to everyone including buyers, sellers, brokers and agents involved in real estate transactions and parties interested in investing in real estate assets and will be designed to manage the business logic described in this whitepaper."
+      "The REIT will invest in commercial real estate assets with high income and value appreciation potential such as office buildings and retail spaces in the most lucrative and thriving locations in Ulaanbaatar city. The DAC team and our partner property management company will be responsible for all management aspects related to the real estate portfolio. ", 
+      "The DAC community will benefit from our innovative blockchain based business model that lowers barriers to entry, enabling interests in large, high performing commercial real estate assets to easily be divided across a wider pool of investors. Income will be used to grow the portfolio and payout yield to DAC stake-holders.",
+      "Using the hybrid DAO model, the asset management team and partner property management companies will manage all property related operations and activities on behalf of the DAC community, including due diligence, transaction management, operations, marketing and sales. This allows the DAC community to simply stake DAC coins and benefit from a professionally managed community real estate portfolio."
     ],
     "icon1": "REAL ESTATE CONTRACT <br> GLOBAL PLATFORM",
     "icon2": "REAL ESTATE LISTING & <br>OPPORTUNITIES",
@@ -146,69 +147,75 @@
       {
         "class": "active first",
         "position": "bottom",
-        "year": "2021.10",
-        "content": "DACoin & DAC wallet release"
+        "year": "2021.11",
+        "content": "Presale"
       },
       {
-        "class": "disabled",
+        "class": "active",
         "position": "top",
-        "year": "2021.10",
-        "content": "IEO on MONGOLIAN EXCHANGES"
+        "year": "2021.12",
+        "content": "Public Offering"
       },
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2021.10",
-        "content": "Secondary market trading"
+        "year": "2021.12",
+        "content": "Major exchanges & trading"
       },
 
       {
         "class": "disabled",
         "position": "top",
-        "year": "2021.11",
-        "content": "Initial real estate asset contracts"
+        "year": "2022.03",
+        "content": "DA Platform"
       },
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2021.11",
-        "content": "Real Estate Portfolio"
+        "year": "2022.06",
+        "content": "Smart Contract Platform"
       },
       {
         "class": "disabled",
         "position": "top",
-        "year": "2021.12",
-        "content": "First Portfolio Dividens"
+        "year": "2022.07",
+        "content": "REIT Contracts"
       },
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2022.01",
-        "content": "Decentralized Exchange listing"
+        "year": "2022.08",
+        "content": "REIT Operations"
       },
       {
         "class": "disabled",
         "position": "top",
-        "year": "2022.05",
-        "content": "DA platform launch"
+        "year": "2022.12",
+        "content": "Mortgage markets"
       },
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2022.09",
-        "content": "Global exchange listing"
+        "year": "2023.02",
+        "content": "Global Exchange Listing"
       },
       {
         "class": "disabled",
         "position": "top",
-        "year": "2022.11",
-        "content": "Global Real Estate Portfolio"
+        "year": "2023.05",
+        "content": "Global RE Platform"
       },
       {
         "class": "disabled",
         "position": "bottom",
-        "year": "2022.11",
-        "content": "DA Platform Global Launch"
+        "year": "2023.06",
+        "content": "Global REIT"
+      },
+      {
+        "class": "disabled",
+        "position": "bottom",
+        "year": "2023.08",
+        "content": "MBS"
       }
     ]
   },
