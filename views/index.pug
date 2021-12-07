@@ -71,20 +71,21 @@
                 </ul>
 
                 <ul id="main-menu" class="navbar-nav mr-auto">
-                    each item, index in main.menuItems
-                        li(class="nav-item " + item.active)
-                            a(class="nav-link", href=item.href, target=item.target)=item.label
+                    
                     
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whitepaper</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <a class="dropdown-item" href="/eng_full.pdf" target="_blank"><span class=""></span>English - Full version</a>
-                            <a class="dropdown-item" href="/eng_short.pdf" target="_blank"><span class=""></span>English - Short version</a>
-                            <a class="dropdown-item" href="/mon_full.pdf" target="_blank"><span class=""></span>Монгол - Бүтэн</a>
-                            <a class="dropdown-item" href="/mon_short.pdf" target="_blank"><span class=""></span>Монгол - Хураангуй</a>
+                            <a class="dropdown-item nav-link small" href="/eng_full.pdf" target="_blank"><span class=""></span>English - Full</a>
+                            <a class="dropdown-item nav-link small" href="/eng_short.pdf" target="_blank"><span class=""></span>English - Short</a>
+                            <a class="dropdown-item nav-link small" href="/mon_full.pdf" target="_blank"><span class=""></span>Монгол - Бүтэн</a>
+                            <a class="dropdown-item nav-link small" href="/mon_short.pdf" target="_blank"><span class=""></span>Монгол - Хураангуй</a>
                         </div>
 
                     </li>
+                    each item, index in main.menuItems
+                        li(class="nav-item " + item.active)
+                            a(class="nav-link", href=item.href, target=item.target)=item.label
                 </ul>
                 
 
