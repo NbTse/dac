@@ -75,17 +75,18 @@
                         li(class="nav-item " + item.active)
                             a(class="nav-link", href=item.href, target=item.target)=item.label
                     
-                    
-                </ul>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whitepaper</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whitepaper</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="/eng_full.pdf" target="_blank"><span class=""></span>English - Full version</a>
+                            <a class="dropdown-item" href="/eng_short.pdf" target="_blank"><span class=""></span>English - Short version</a>
+                            <a class="dropdown-item" href="/mon_full.pdf" target="_blank"><span class=""></span>Монгол - Бүтэн</a>
+                            <a class="dropdown-item" href="/mon_short.pdf" target="_blank"><span class=""></span>Монгол - Хураангуй</a>
+                        </div>
+
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Whitepaper Full</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Whitepaper Full</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Whitepaper Full</a></li>
                 </ul>
+                
 
                 //- <form class="form-inline">´
                 //-     a.btn.btn-outline-light(href="https://leax.io/wallet",target="_blank")=main.walletWeb
