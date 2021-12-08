@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/custom.css">
     <link rel="shortcut icon" href="/img/favicon.ico" />
     title=main.title
 </head>
@@ -86,6 +87,10 @@
                     each item, index in main.menuItems
                         li(class="nav-item " + item.active)
                             a(class="nav-link", href=item.href, target=item.target)=item.label
+                    
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn_featured" href="https://ico.da-coin.io/">ICO</a>
+                    </li>
                 </ul>
                 
 

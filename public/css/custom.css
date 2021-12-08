@@ -1,0 +1,5 @@
+.btn_featured {
+    font-size: 1.2em !important;
+    font-weight: bold;
+    animation: 1s infinite btnwave;
+}
